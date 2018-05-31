@@ -12,7 +12,7 @@ en:
     login_name: Login
     logout: Keluar
     create_a_new_account: Buat akun baru
-    word: Lupa Kata Sandi?
+    forgot_password: Lupa Kata Sandi?
   devise:
     confirmations:
       confirmed: Your account was successfully confirmed. You are now signed in.
