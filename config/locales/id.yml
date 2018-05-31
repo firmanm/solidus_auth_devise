@@ -13,6 +13,9 @@ id:
     logout: Keluar
     create_a_new_account: Buat akun baru
     forgot_password: Lupa Kata Sandi?
+    or: atau
+    akun_baru: klik disini untuk
+    lupa: atau klik jika
   devise:
     confirmations:
       confirmed: Akun Anda telah berhasil di konfirmasi. Anda sekarang telah masuk sistem.
