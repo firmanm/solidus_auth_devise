@@ -1,0 +1,52 @@
+---
+id:
+  spree:
+    admin_login: Admin Login
+  devise:
+    confirmations:
+      confirmed: Akun Anda telah berhasil di konfirmasi. Anda sekarang telah masuk sistem.
+      send_instructions: Anda akan menerima email dengan instruksi tentang bagaimana caranya untuk mengkonfirmasi akun Anda beberapa menit lagi.
+    failure:
+      inactive: Akun Anda belum teraktivasi
+      invalid: Email atau password salah
+      invalid_token: Token otentikasi Anda salah
+      locked: Akun Anda sedang terkunci
+      timeout: Sesi Anda telah berakhir, silahkan login kembali untuk melanjutkan.
+      unauthenticated: Anda perlu login atau mendaftar dulu sebelum melanjutkan.
+      unconfirmed: Anda perlu mengkonfirmasi akun Anda sebelum melanjutkan.
+    mailer:
+      confirmation_instructions:
+        subject: Instruksi konfirmasi.
+      reset_password_instructions:
+        subject: Instruksi reset kata sandi
+      unlock_instructions:
+        subject: Instruksi membuka Akun terkunci
+    oauth_callbacks:
+      failure: Tidak bisa mengizinkan Anda dari %{kind} karena %{reason}
+      success: Berhasil mendapat izin dari akun %{kind}
+    unlocks:
+      send_instructions: Anda akan menerima email dengan instruksi tentang bagaimana caranya untuk mengaktifkan akun yang terkunci beberapa menit lagi.
+      unlocked: Akun Anda telah tidak terkunci lagi. Anda sekarang telah masuk sistem.
+    user_passwords:
+      user:
+        cannot_be_blank: Kata sandi Anda tidak boleh kosong
+        send_instructions: Anda akan menerima email dengan instruksi tentang bagaimana caranya untuk mengganti ulang kata sandi Anda beberapa menit lagi.
+        updated: Kata sandi Anda telah berhasil diganti. Anda sekarang telah masuk sistem.
+    user_registrations:
+      destroyed: Dadah! Akun Anda telah berhasil dihapus.
+      inactive_signed_up: Akun Anda telah didaftarkan. Namun, Anda tidak dapat masuk ke sistem kami karena %{reason}
+      signed_up: Selamat datang! Akun Anda telah berhasil dibuat.
+      updated: Anda telah berhasil memperbarui Akun Anda.
+    user_sessions:
+      signed_in: Berhasil Login.
+      signed_out: Berhasil keluar.
+      already_signed_in: Already signed in.
+  errors:
+    messages:
+      already_confirmed: was already confirmed
+      email_is_invalid: Email address cannot be blank
+      not_found: not found
+      not_locked: was not locked
+      not_saved:
+        one: '1 error prohibited this %{resource} from being saved:'
+        other: '%{count} errors prohibited this %{resource} from being saved:'
