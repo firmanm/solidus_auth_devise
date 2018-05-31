@@ -2,6 +2,17 @@
 id:
   spree:
     admin_login: Admin Login
+    change_my_password: Ubah password Anda
+    logged_in_as: Login sebagai
+    logged_in_succesfully: Login berhasil
+    logged_out: Anda telah keluar.
+    login: Login
+    login_as_existing: Login
+    login_failed: Otentikasi login gagal.
+    login_name: Login
+    logout: Keluar
+    create_a_new_account: Buat akun baru
+    word: Lupa Kata Sandi?
   devise:
     confirmations:
       confirmed: Akun Anda telah berhasil di konfirmasi. Anda sekarang telah masuk sistem.
@@ -28,10 +39,11 @@ id:
       send_instructions: Anda akan menerima email dengan instruksi tentang bagaimana caranya untuk mengaktifkan akun yang terkunci beberapa menit lagi.
       unlocked: Akun Anda telah tidak terkunci lagi. Anda sekarang telah masuk sistem.
     user_passwords:
-      user:
+      spree_user:
         cannot_be_blank: Kata sandi Anda tidak boleh kosong
         send_instructions: Anda akan menerima email dengan instruksi tentang bagaimana caranya untuk mengganti ulang kata sandi Anda beberapa menit lagi.
         updated: Kata sandi Anda telah berhasil diganti. Anda sekarang telah masuk sistem.
+        no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
     user_registrations:
       destroyed: Dadah! Akun Anda telah berhasil dihapus.
       inactive_signed_up: Akun Anda telah didaftarkan. Namun, Anda tidak dapat masuk ke sistem kami karena %{reason}

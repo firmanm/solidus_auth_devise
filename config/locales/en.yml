@@ -2,6 +2,17 @@
 en:
   spree:
     admin_login: Admin Login
+    change_my_password: Change your password
+    logged_in_as: Login sebagai
+    logged_in_succesfully: Login berhasil
+    logged_out: Anda telah keluar.
+    login: Login
+    login_as_existing: Login
+    login_failed: Otentikasi login gagal.
+    login_name: Login
+    logout: Keluar
+    create_a_new_account: Buat akun baru
+    word: Lupa Kata Sandi?
   devise:
     confirmations:
       confirmed: Your account was successfully confirmed. You are now signed in.
